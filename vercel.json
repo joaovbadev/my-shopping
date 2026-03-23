@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build -- --filter=@my-shopping/web",
+  "installCommand": "npm install",
+  "outputDirectory": "apps/web/.next",
+  "env": {
+    "NEXT_PUBLIC_API_URL": "@next_public_api_url"
+  },
+  "monorepo": true,
+  "regions": ["sfo1"],
+  "framework": "nextjs"
+}
