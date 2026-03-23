@@ -1,0 +1,19 @@
+import { Injectable } from '@nestjs/common';
+import { PrismaService } from '../../prisma/prisma.service';
+
+@Injectable()
+export class TenantsService {
+  constructor(private prisma: PrismaService) {}
+
+  async findAll() {
+    return this.prisma.tenant.findMany();
+  }
+
+  async findById(id: string) {
+    return this.prisma.tenant.findUnique({ where: { id } });
+  }
+
+  async findByDomain(domain: string) {
+    return this.prisma.tenant.findUnique({ where: { domain } });
+  }
+}

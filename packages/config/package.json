@@ -1,0 +1,6 @@
+{
+  "name": "@my-shopping/config",
+  "version": "0.0.0",
+  "private": true,
+  "files": ["tsconfig.base.json", "eslint.config.js"]
+}

@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npx create-turbo@latest . --skip-install)",
+      "Bash(npm install:*)",
+      "Bash(npx prisma:*)",
+      "Bash(npx nest:*)",
+      "Bash(npx next:*)",
+      "Bash(docker compose:*)",
+      "Bash(docker info:*)",
+      "Bash(docker run:*)",
+      "Bash(docker buildx:*)",
+      "Bash(taskkill //F //IM \"docker-buildx.exe\")",
+      "Bash(curl -s http://localhost:3001/api/products -H \"x-tenant-id: f709da7a-8109-4bc4-86ef-9e0bb5fc864b\")"
+    ]
+  }
+}
