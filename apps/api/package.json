@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "prisma generate && tsc -p tsconfig.build.json && echo '=== DIST CONTENTS ===' && ls -la dist/ && echo '=== CWD ===' && pwd",
+    "build": "prisma generate && tsc -p tsconfig.build.json",
     "dev": "nest start --watch",
     "start": "node dist/main",
     "start:prod": "node dist/main",
