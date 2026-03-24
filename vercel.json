@@ -4,8 +4,5 @@
   "buildCommand": "npm run build -- --filter=@my-shopping/web",
   "installCommand": "npm install",
   "outputDirectory": "apps/web/.next",
-  "env": {
-    "NEXT_PUBLIC_API_URL": "@next_public_api_url"
-  },
-  "regions": ["sfo1"]
+"regions": ["sfo1"]
 }
